@@ -1,0 +1,151 @@
+#header{
+  background: url("http://sfwallpaper.com/images/background-gaming-4.jpg");
+  color: white;
+}
+
+.first-container h1{
+  font-family: 'Bungee Inline', cursive;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.first-container p{
+  padding-top: 5%;
+}
+#topbutton{
+  border-radius: 30px;
+  font-size: 25px;
+}
+
+ p{
+   font-family: 'Libre Baskerville', serif;
+   font-size: 20px;
+ }
+ .container-fluid{
+   padding: 3% 15% 5% 15%;
+ }
+
+ .first-container button{
+   margin-top: 50px;
+ }
+
+.second-container img{
+  width: 300px;
+  height: 300px;
+  padding:5% 5%;
+}
+
+.second-container img:hover{
+  transform: rotate(360deg);
+  transition: transform 1s;
+}
+
+.second-container{
+  padding: 2% 10%;
+  background-color: white;
+  position: relative;
+}
+
+.second-container h3{
+  font-family: 'Balsamiq Sans', cursive;
+  margin-top: 10px;
+}
+
+.second-container p{
+  color: #8f8f8f;
+}
+
+/* Carousel Part */
+.third-container{
+  text-align: center;
+  background-image:url(game_back.jpg);
+  background-size: cover;
+  color:white;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+.third-container h3{
+  margin-bottom: 20px;;
+}
+
+video{
+  margin-bottom:5%;
+}
+
+.fourth-container{
+  background-color: #f5f5f5;
+  text-align: center;
+  padding-top:20px;
+}
+
+#social{
+  padding:0 2%;
+  font-size: 25px;
+  color: grey;
+}
+
+.contact{
+  padding: 15px;
+  margin:30px 0 30px 0;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bolder;
+}
+
+#copyright{
+  font-size: 1rem;;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Libre Baskerville';
+  font-weight: lighter;
+}
+
+/* Download Buttons */
+.link-button{
+  margin: 5% 3% 5% 0;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+/* Title Image */
+#header_image{
+  position: absolute;
+}
+
+@media (max-width: 1025px){
+  #header_image{
+    position: static;
+    top:50px;
+  }
+  .first-container{
+    text-align: center;
+    margin-bottom:0;
+  }
+  iframe{
+    width:435px;
+    height:250px;
+  }
+  #doom-img{
+    margin-left:25%;
+  }
+}

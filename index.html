@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ghost Gamers</title>
+  <!-- Bootstrap Scripts -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Css StyleSheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-a11y="true"></script>
+
+</head>
+
+<body>
+  <section id="header">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Ghost Gamers</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="Sign-Up.html">Sign Up</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://en.wikipedia.org/wiki/Lists_of_video_games">A-Z Games</a></li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <div class="first-container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 id="game-mode">ACTIVATE GAME<br> MODE <i class="fas fa-gamepad"></i></h1>
+            <i>
+              <p>Gaming is a passion. The Adventure, Danger and Adrenaline running through our veins while playing these games is the feeling what gamers crave for. This is the virtual reality which could make anyone fall in love with gaming.</p>
+            </i>
+            <a href="Top-Games.html">
+              <button id="topbutton" type="button" name="button" class="btn btn-outline-danger btn-lg link-button">Top 5 Games</button>
+            </a>
+
+          </div>
+          <div class="col-lg-6">
+            <img id="header_image" src="header_game.png" height="500px" width="650px" alt="Game.png Missing">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="second-container">
+    <center>
+      <h2>Top 3 Games</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <a href="https://www.youtube.com/watch?v=zu3wZ-_IKrM">
+            <img class="circle-img" src="Images/COD.png" alt="COD.png missing">
+          </a>
+          <h3>Call of Duty: Modern Warfare</h3>
+          <p>Shooting at an intense level.</p>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <a href="https://www.youtube.com/watch?v=YApuEWtG30w">
+            <img class="circle-img" src="Images/CP2077.png" alt="CP2077.png Missing">
+          </a>
+          <h3>CyberPunk 2077</h3>
+          <p>Open World RPG of the dark future.</p>
+        </div>
+        <div id="doom-img" class="col-lg-4 col-md-6">
+          <a href="https://www.youtube.com/watch?v=FkklG9MA0vM">
+            <img class="circle-img" src="Images/DOOME.png" alt="DOOME.png Missing">
+          </a>
+          <h3>DOOM:Eternal</h3>
+          <p>Best Demon-Slayer game of the year.</p>
+        </div>
+      </div>
+  </div>
+
+  <div class="third-container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false" data-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- <video controls="true" width="60%" poster="Images/PS5_logo.png" autoplay="autoplay" preload="auto">
+            <source type="video/mp4" src="https://www.youtube.com/watch?v=RkC0l4iekYo">
+            Your browser doesn't support the video tag.
+          </video> -->
+          <iframe id="gameVideo" width="900" height="506" src="https://www.youtube.com/embed/RkC0l4iekYo" frameborder="0" allowfullscreen></iframe>
+          <h3>Playstation 5</h3>
+          <p>The PS5 features AMD’s Zen 2 CPU and a custom GPU from AMD based on the company’s RDNA 2 architecture, which provides 10.28 teraflops of power with 36 compute units running at 2.23GHz each. System memory will be 16GB. The console will
+            support
+            real-time ray tracing for advanced visual effects and will have a solid-state drive (SSD). The PS5 will also support 3D audio.</p>
+        </div>
+        <div class="carousel-item">
+          <!-- <video controls="true" width="60%" poster="https://wallpapercave.com/wp/wp4159928.jpg" autoplay="autoplay" preload="auto">
+            <source type="video/mp4" src="https://www.youtube.com/watch?v=Ry72b_fIKAk">
+            Your browser doesn't support the video tag.
+          </video> -->
+          <iframe id="gamerVideo" width="900" height="506" src="https://www.youtube.com/embed/Ry72b_fIKAk" frameborder="0" allowfullscreen></iframe>
+          <h3>Google Stadia</h3>
+          <p>Stadia is a cloud gaming service developed and operated by Google. It is advertised to be capable of streaming video games up to 4K resolution at 60 frames per second with support for high-dynamic-range.It is accessible through the
+            Google Chrome
+            web browser on personal computers, Pixel smartphones, supported smartphones from Samsung, OnePlus, Razer and Asus, as well as Chrome OS tablets and Chromecast for TV support.</p>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </div>
+
+
+  <div class="fourth-container">
+    <a id="social" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+    <a id="social" href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+    <a id="social" href="https://discord.com/"><i class="fab fa-discord"></i></a>
+    <hr>
+    <a href="contact-us.html">
+      <button type="button" name="button" class="btn btn-outline-primary contact">Contact Us</button>
+    </a>
+
+
+    <p id="copyright">© 2020 Ghost Gamers</p>
+
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="ghost.js" charset="utf-8"></script>
+</body>
+
+</html>
