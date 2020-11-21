@@ -1,4 +1,4 @@
-var myAudio = new Audio('Bfg_Division.mp3');
+const myAudio = new Audio('Bfg_Division.mp3');
 
 function getRandomColor() {
   var letters = '0123456789ABCDEF';
@@ -16,9 +16,10 @@ function changeHeaderColour(){
 
 setInterval("changeHeaderColour()",1500);
 
+myAudio.volume = 0.1;
+
 $("#game-mode").on("click",function(){
   myAudio.play();
-  myAudio.volume = 1;
   $("#game-mode").html("<h1>GAME MODE <br>ACTIVATED!🎮</h1>");
 });
 
