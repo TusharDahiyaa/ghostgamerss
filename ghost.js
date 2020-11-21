@@ -1,4 +1,4 @@
-const myAudio = new Audio('Bfg_Division.mp3');
+var myAudio = new Audio('Bfg_Division.mp3');
 
 function getRandomColor() {
   var letters = '0123456789ABCDEF';
