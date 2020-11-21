@@ -18,7 +18,7 @@ setInterval("changeHeaderColour()",1500);
 
 $("#game-mode").on("click",function(){
   myAudio.play();
-  myAudio.volume = 0.01;
+  myAudio.volume = 1;
   $("#game-mode").html("<h1>GAME MODE <br>ACTIVATED!🎮</h1>");
 });
 
