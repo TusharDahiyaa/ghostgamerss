@@ -16,7 +16,7 @@ function changeHeaderColour(){
 
 setInterval("changeHeaderColour()",1500);
 
-myAudio.volume = 0.05;
+myAudio.volume = 0.1;
 
 $("#game-mode").on("click",function(){
   myAudio.play();
